@@ -9,8 +9,7 @@ class Solution
      static bool cmp(pair<int,int> a, pair<int,int>b){
         return a.second<b.second;
     }
-    //Function to find the maximum number of meetings that can
-    //be performed in a meeting room.
+   
     int maxMeetings(int start[], int end[], int n)
     {
         // Your code here
